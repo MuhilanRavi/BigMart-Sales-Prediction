@@ -42,6 +42,23 @@ Root Mean Squared Error (RMSE): ~1080.82
 
 R² Score: 0.57 (57% of sales variance explained by the model)
 
+Hyperparameter Tuning and Model Validation
+We performed extensive hyperparameter tuning on the XGBoost model with parameters such as learning rate, max depth, feature subsampling, and minimum child weight. The best combination found was:
+
+learning_rate = 0.05
+
+max_depth = 4
+
+n_estimators = 100
+
+colsample_bytree = 0.8
+
+subsample = 1.0
+
+min_child_weight = 1
+
+Using 5-fold cross-validation, our optimized model achieved an average RMSE of 1092.07, with a standard deviation across folds of about 14, indicating consistent performance.
+
 Usage
 To run the project locally:
 
