@@ -1,0 +1,7 @@
+Feature,Importance
+Outlet_Type,0.460152
+Item_MRP,0.218821
+Item_MRP_Bin_Encoded,0.097848
+Outlet_Location_Type,0.092517
+Outlet_Age,0.069476
+Outlet_Size,0.061186
